@@ -1,0 +1,48 @@
+@media screen and (min-width: 480px) {
+    
+    /*******************************
+    Main Page
+    *******************************/
+    
+    
+    #gallery li {
+        width: 28.3333%;
+    }
+    
+    #gallery li:nth-child(4n) {
+        clear: left;
+    }
+}
+
+/**/
+
+
+
+
+@media screen and (min-width: 660px) {
+    
+    #logo {
+        float: center;
+        margin: auto;
+        text-align: center;
+        width: 45%;
+    }
+    
+    h1 {
+        font-size: 1.5em;
+        margin-bottom: 5px;
+    }
+    
+    h2 {
+        font-size: 2.5em;
+        margin-bottom: 5px;
+    }
+
+/**/
+
+    
+    header {
+        border-bottom: 5px solid #00aced;
+        margin-bottom: 30px;
+    }
+}
